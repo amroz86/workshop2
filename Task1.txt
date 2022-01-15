@@ -1,0 +1,12 @@
+1) Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI:
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 128770006086.dkr.ecr.us-east-1.amazonaws.com
+2) URI:
+128770006086.dkr.ecr.us-east-1.amazonaws.com/workshop2
+3) Endpoint & port:
+nctutorials.cdnrrp709crr.us-east-1.rds.amazonaws.com
+5432
+4) Public IPv4 DNS:
+ec2-34-232-127-217.compute-1.amazonaws.com
+5) Github workshop2 url:
+https://github.com/amroz86/workshop2.git
+6) 
